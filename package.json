@@ -1,0 +1,19 @@
+{
+  "name": "hasura-starter",
+  "version": "1.0.0",
+  "description": "Starter pack for hasrua with angular",
+  "main": "index.js",
+  "scripts": {
+    "console": "hasura console --project hasura --admin-secret my-admin-secret",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hasura",
+    "angular"
+  ],
+  "author": "Abdullah Saleem",
+  "license": "MIT",
+  "devDependencies": {
+    "hasura-cli": "^2.8.4"
+  }
+}

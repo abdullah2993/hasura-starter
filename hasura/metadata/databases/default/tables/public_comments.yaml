@@ -1,0 +1,7 @@
+table:
+  schema: public
+  name: comments
+object_relationships:
+  - name: post
+    using:
+      foreign_key_constraint_on: post_id
